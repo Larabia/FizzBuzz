@@ -1,9 +1,6 @@
 <?php
 
 $count = 1;
-<?php
-
-$count = 1;
 
 //solution with while/if
 
@@ -52,4 +49,16 @@ foreach ($output as $value) {
   echo $value . "\n";
 }
 
+
+//extra tasks
+foreach ($output as $value) {
+
+  if($value === "Fizz"){
+    continue;
+  } elseif($value === "FizzBuzz"){
+    break;
+  } else {
+  echo $value . "\n";
+  }
+}
 
